@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  background: #2d2a3d;
+  color: #fff;
+}
+
+button {
+  background: none;
+  color: #fff;
+  font-family: "Raleway";
+  border: 1px solid #fff;
+  padding: 1em 2em;
+  border-radius: 7px;
+  width: 150px;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all linear;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.imageContainer {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.score {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.playerPoints {
+  margin-left: 3em;
+}
+
+.computerPoints {
+  margin-right: 3em;
+}
+
+.hidden {
+  opacity: 0;
+}

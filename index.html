@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Rock-Paper-Scissors</h1>
+    <h3 class="msg">
+      First one to win 5 rounds is the winner! (Ties don't count as wins) Good
+      Luck!
+    </h3>
+    <div class="score">
+      PLAYER <span class="playerPoints">0</span> /
+      <span class="computerPoints">0</span> COMPUTER
+    </div>
+    <div class="imageContainer hidden">
+      <div class="playerImage">
+        <img src="./images/paper.png" />
+      </div>
+      <div class="computerImage">
+        <img src="./images/rock.png" />
+      </div>
+    </div>
+    <div class="gameText"></div>
+    <div class="btnContainer">
+      <button>Rock</button>
+      <button>Paper</button>
+      <button>Scissors</button>
+    </div>
+    <button class="reset">Reset</button>
+
     <script src="myscript.js"></script>
   </body>
 </html>

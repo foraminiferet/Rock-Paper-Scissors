@@ -1,3 +1,3 @@
 # Rock-Paper-Scissors
 
-Rock, paper, scissors game that you play in the console
+Rock, paper, scissors game with interactive UI
